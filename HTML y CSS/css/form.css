@@ -1,0 +1,41 @@
+.input{
+    width: 100%;
+    padding: 5px,10px;
+    border: 2px solid goldenrod;
+    border-radius: 20px;
+    margin: 10px;
+}
+
+.input[type="password"]{
+    width: 100%;
+    padding: 5px,10px;
+    color: red;
+    
+}
+
+.input::placeholder{
+    color: green;
+}
+
+.input-search{
+    padding: 10px;
+    padding-left: 30px;
+    color: white;
+    font-weight: bold;
+    border: none;
+    background-color: #eee;
+    border-radius: 15px;
+    margin: 10px;
+    background-image: url('../media/BT2.webp');
+    background-position:top;
+}
+
+textarea{
+    resize: none;
+}
+
+select{
+    width: 50%;
+    padding: 15px;
+    background-color: wheat;
+}

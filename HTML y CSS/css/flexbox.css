@@ -1,0 +1,53 @@
+/* .flex{
+    background-color: yellow;
+    height: 300px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.contenido-1{
+    background-color: white;
+    height: 200px;
+    width: 100px;
+    border: 1px solid blue;
+}
+
+.contenido-2{
+    background-color: white;
+    height: 200px;
+    width: 100px;
+    border: 1px solid blue;
+}
+
+.contenido-3{
+    background-color: white;
+    height: 200px;
+    width: 100px;
+    border: 1px solid blue;
+} */
+
+.contenedor{
+    display: flex;
+    gap: 0.5rem;
+    padding: 0.5rem;
+    background-color: yellow;
+    min-height: 5rem;
+        /* Eje principal "horitonzal por defecto" */
+        justify-content: space-between;
+        /* Eje segundario */
+        align-items: center;
+    flex-wrap: wrap;
+
+}
+
+.item{
+    background-color: salmon;
+    padding: 0.25rem;
+    width: 10rem;
+}
+
+.item2{
+    align-self: stretch;
+}

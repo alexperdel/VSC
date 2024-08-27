@@ -1,0 +1,29 @@
+/*  
+Abrir terminal de la carpeta sass y ejecutar el comando "sass --watch styles.scss:styles.css" 
+ */
+/* 
+@import "componentes";
+    $color
+        Usando @import tenemos el problema de que las variables se pisarían siempre que usemos la misma para diferentes @imports. Por eso ya no se usa. Y pasamos a usar @user
+ */
+
+ // Componentes
+ @use "sass/componentes";
+ // namespace 
+ // $color -> comp.$color
+ 
+ // Mixins
+ @use "sass/mixins";
+ // $color -> $color
+ 
+ // Estilos
+ @use "sass/estilos";
+ 
+ // Paginas
+ // página principal
+ // página de contacto
+ // página de aviso legal
+ 
+ // Otros
+ @use "sass/builtin";
+ 
