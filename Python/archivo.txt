@@ -1,3 +1,0 @@
-Hola Mundo.txt 
- desde Python
- Aprendiendo un día más
